@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 10px;
+}
+
+
+
+
+
+h1{
+    color: red;
+    border: 1px solid rgb(141, 26, 26);
+    text-align: center;
+}
+
+p{
+    /* display: inline; */
+    color: gray;
+    border: 1px solid rgb(141, 26, 26);
+    /* marge exterieur */
+    margin-left: 50px;
+    
+
+    /* marge interieur */
+    padding-left: 50px;
+}
+
+ul{
+    color: green;
+    list-style-type: none;
+}
+
+a{
+    color: violet;
+    text-decoration: none;
+}
+button{
+    color: white;
+    background-color: #0000ff;
+    border-radius: 10px;
+}
+
+img{
+    border: 1px solid black;
+    display: block;
+   
+    /* pour les element type block donner la taille du composant , margin : auto */
+    margin: auto;
+}
+
+a:hover{
+    border: 1px solid black;
+    text-decoration: none;
+    font-size: 24px;
+    color: blue;
+}
